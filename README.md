@@ -23,7 +23,9 @@ This project directly addresses the core learning outcomes of SD2411:
 Unlike standard beam theory which assumes plane sections remain plane, thin-walled open sections (like I-beams and channels) exhibit **warping**—out-of-plane deformation of the cross-section. 
 
 The governing equation for non-uniform torsion (Vlasov torsion) is:
+
 $$ E C_w \frac{d^4 \phi}{dx^4} - G J \frac{d^2 \phi}{dx^2} = m_x $$
+
 Where:
 - $\phi(x)$ is the angle of twist.
 - $GJ$ is the St. Venant torsional stiffness.
@@ -33,7 +35,9 @@ Where:
 
 ### Stability and Buckling
 Structural stability is analyzed by solving the generalized eigenvalue problem:
+
 $$ [K + \lambda K_g] \{u\} = 0 $$
+
 Where:
 - $K$ is the elastic stiffness matrix.
 - $K_g$ is the geometric stiffness matrix (dependent on internal axial forces).
