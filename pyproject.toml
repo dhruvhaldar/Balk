@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "balk"
+version = "0.1.0"
+authors = [
+  { name="Dhruv Haldar" },
+]
+description = "Lightweight Structures and FEM Solver"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy",
+    "scipy",
+    "matplotlib",
+    "seaborn",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/dhruvhaldar/balk"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["balk*"]
