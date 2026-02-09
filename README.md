@@ -1,6 +1,9 @@
-# Balk - Lightweight Structures and FEM Solver
+# Balk - SD2411 Lightweight Structures and FEM Solver
 
-**Balk** is a Python-based Finite Element Method (FEM) solver designed for the analysis of thin-walled beam structures, inspired by the KTH course **SD2411 Lightweight Structures and FEM**.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
+
+**Balk** is a Python-based Finite Element Method (FEM) solver designed for the analysis of thin-walled beam structures, inspired by the KTH course **[SD2411 Lightweight Structures and FEM](https://www.kth.se/student/kurser/kurs/SD2411)**.
 
 This project implements advanced structural mechanics concepts such as **Vlasov torsion**, **warping**, and **instability (buckling)**, providing a computational tool to explore the behavior of lightweight structural elements.
 
@@ -56,9 +59,9 @@ Where:
 2.  **Create and activate a virtual environment:**
 
     *   **Windows:**
-        ```bash
+        ```powershell
         python -m venv venv
-        .\venv\Scripts\activate
+        .\venv\Scripts\activate.ps1
         ```
     *   **macOS/Linux:**
         ```bash
