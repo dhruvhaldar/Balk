@@ -136,7 +136,37 @@ plotter.plot_deformed(u, scale=50)
 plotter.show()
 ```
 
+## Web GUI
+
+Balk includes a web-based GUI built with Next.js and Flask, deployable on Vercel.
+
+### local Development
+
+1.  **Backend:**
+    ```bash
+    # Ensure dependencies are installed
+    pip install -r requirements.txt
+    python api/index.py
+    ```
+    The API will run on `http://127.0.0.1:5328`.
+
+2.  **Frontend:**
+    ```bash
+    cd frontend
+    npm install
+    npm run dev
+    ```
+    The frontend will run on `http://localhost:3000`.
+
+### Vercel Deployment
+
+1.  Push the repository to GitHub.
+2.  Import the project into Vercel.
+3.  Vercel will automatically detect the Next.js frontend and the `api/` directory serves as the Python backend.
+4.  Deploy!
+
 ## Project Structure
+
 
 -   `balk/`
     -   `node.py`: Nodal definitions.
