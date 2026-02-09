@@ -2,3 +2,14 @@ __pycache__/
 *.pyc
 .pytest_cache/
 venv/*
+
+frontend/node_modules/*
+frontend/.next/*
+frontend/.vercel/*
+frontend/out/*
+frontend/dist/*
+frontend/build/*
+frontend/coverage/*
+frontend/yarn.lock
+frontend/package-lock.json
+frontend/pnpm-lock.yaml
